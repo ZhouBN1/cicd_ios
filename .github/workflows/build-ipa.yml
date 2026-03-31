@@ -1,7 +1,8 @@
 name: Build iOS App (No Signing, No Errors)
 
 on:
-  workflow_dispatch:
+  push:
+    branches: ["main"]
 
 jobs:
   build:
